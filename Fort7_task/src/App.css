@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* MobileNo */
+
+.container{
+    display: flex;
+    align-items: center;
+    
+}
+.MobileNo{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 5rem;
+    
+    
+}
+
+
+.inputNumber{
+    width: 79%;
+    height: 2rem;
+    margin: 1rem;
+}
+.sendCode{
+width: 79%;
+background-color: rgb(245, 39, 39);
+color: white;
+height: 2rem;
+border-radius: 2rem;
+padding: 0.5rem;
+margin: 1rem;
+outline: none;
+border: none;
+}
+
+/*OTP*/
+
+.otpContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80%;
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    align-items: center;
+    
+  }
+  
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    color: black
+  }
+  
+  .message {
+    color: #a3a3a3;
+    font-size: 14px;
+    margin-top: 4px;
+    text-align: center
+  }
+  
+  .inputs {
+    margin-top: 10px
+  }
+  
+  .inputs input {
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    border: none;
+    border-bottom: 1.5px solid #d2d2d2;
+    margin: 0 8px;
+  }
+  
+  .inputs input:focus {
+    border-bottom: 1.5px solid royalblue;
+    outline: none;
+  }
+  
+  .action {
+    margin-top: 24px;
+    padding: 12px 16px;
+    border-radius: 18px;
+    border: none;
+    background-color:  rgb(245, 39, 39);
+    color: white;
+    cursor: pointer;
+    align-self: end;
+    text-align: center;
+    width: 100%;
+  }
+  .resend{
+    margin: 1rem;
+    padding: 0.3rem;
+  }
+  /*Your Taste*/
+  .head{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+  }
+  .tasteBody{
+    display: flex;
+  }
+
+  /*PopularOnes*/
+
+  .itemImg{
+    width: 40%;
+    height: 120px;
+  }
+
+
+  .back{
+    position: absolute;
+    top: 10;
+    left: 10;
+  }
